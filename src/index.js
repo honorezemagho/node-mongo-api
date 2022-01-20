@@ -1,8 +1,7 @@
-const app=require('./app')
+const app = require("./app");
 
+const port = process.env.PORT;
 
-const port=process.env.PORT
-
-app.listen(port,()=>{
-    console.log("API start running up on "+port);
-})
+app.listen(port, () => {
+  console.log("API start running up on " + port);
+});

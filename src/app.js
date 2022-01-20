@@ -1,10 +1,9 @@
-const express=require('express')
-const { Mongoose } = require('mongoose')
+const express = require("express");
+const { Mongoose } = require("mongoose");
 
-const app=express()
-require('./db/mongoose')
+const app = express();
+require("./db/mongoose");
 
-app.use(express.json())
+app.use(express.json());
 
-
-module.exports=app
+module.exports = app;
