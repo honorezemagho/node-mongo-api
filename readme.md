@@ -25,13 +25,13 @@ npm install
 create and config .env File
 
 ```bash
-    touch ./config/dev.env 
+    touch ./config/dev.env
     touch ./config/test.env
 
     echo "PORT=value_port" >> ./config/dev.env
     echo "MONGODB_URL=mongodb://127.0.0.1:27017/database_name" >> ./config/dev.env
     echo "DEBUG_MODE=true" >> ./config/dev.env
-    
+
 ```
 
 launch the dev environment
